@@ -4,7 +4,8 @@ const handler = require('../handler/handler')
 
 api.get('/news', handler.mostrarTabla)
 api.post('/ad', handler.enviarDatos)
-api.delete('/delete/:id', handler.borrarId)
+    // esta ruta del delete , le habia puesto con el vervo delete pero tampoco me funca el video que mire lo hizo tipo asi con get no se por que.
+api.get('/delete/:id', handler.borrarId)
 
 
 
