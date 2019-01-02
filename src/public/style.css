@@ -1,0 +1,17 @@
+#scrol {
+    margin: auto;
+    width: 600px;
+    height: 400px;
+    overflow: scroll;
+}
+
+#scrol::-webkit-scrollbar {
+    background-color: white;
+    width: 7px;
+}
+
+#scrol::-webkit-scrollbar-thumb {
+    color: violet;
+    width: 7px;
+    border-radius: 5px;
+}
