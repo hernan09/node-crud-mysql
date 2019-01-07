@@ -54,12 +54,16 @@ function update(req, res) {
 
     })
 }
+function algo(req,res){
 
+
+}
 
 module.exports = {
     mostrarTabla,
     enviarDatos,
     borrarId,
     edit,
-    update
+    update,
+    algo
 }
